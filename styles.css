@@ -1,0 +1,123 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+.container {
+    height: auto;
+    width: 50%;
+    background-color: #E6E6FA;
+    padding:20px;
+    margin : 100px;
+    align-self: auto;
+    border-radius: 20px;
+}
+.toggler-container {
+    margin: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    display: flex;              
+    justify-content: center;     
+    align-items: center;        
+}
+.toggle-btn {
+    padding: 10px 20px;
+    
+    border: 2px solid;
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    outline: none;
+    width: 50%;
+    margin: 5px;
+}
+
+h1 {
+    font-family: "Rancho";
+    font-weight: bold;
+}
+
+.active {
+    background-color: #bcba3d;
+    color: black;
+   
+}
+
+.container-card {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+    background-image: linear-gradient( 109.6deg,  rgba(112,246,255,0.33) 11.2%, rgba(221,108,241,0.26) 42%, rgba(229,106,253,0.71) 71.5%, rgba(123,183,253,1) 100.2% );
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+}
+
+.input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    background-color: rgba(72, 212, 212, 0);
+}
+h1 {
+    color: #930d93;
+}
+
+#converter-btn, #get-exchange-rate-btn {
+    background-color: #c054a1;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 48%;
+}
+
+#converter-btn i {
+    margin-right: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#exchange-mode{
+    padding: 10px;
+}
